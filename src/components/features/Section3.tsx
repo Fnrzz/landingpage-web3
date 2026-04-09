@@ -16,7 +16,7 @@ const Section3 = () => {
 
       <div className="flex flex-col lg:flex-row h-full w-full mt-8 lg:mt-0">
         <div className="w-full lg:w-1/2 flex flex-col gap-16 md:gap-24 lg:gap-32 justify-center z-10">
-          <div className="flex flex-col gap-5 md:gap-20 lg:gap-24">
+          <div className="flex flex-col gap-3 md:gap-20 lg:gap-24">
             <h1 className="text-[50px] sm:text-[70px] md:text-[80px] lg:text-[90px] leading-[0.8] text-white font-bold scale-y-[1.3] md:scale-y-[1.5] lg:scale-y-[2] tracking-[-0.05em] lg:tracking-[-0.1em] origin-top ">
               WHAT KIND
             </h1>
