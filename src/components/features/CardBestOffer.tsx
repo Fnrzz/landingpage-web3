@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const CardBestOffer = () => {
   return (
-    <div className="absolute w-[80%] lg:w-[450px] h-fit border-4 md:border-[6px] border-[#1a1a1a] bg-white z-[3]  top-[-120%] lg:top-[-100%] left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-15 rounded-[1.5rem] md:rounded-[2.5rem] p-4 md:p-6 flex flex-col gap-3 md:gap-4 shadow-xl">
+    <div className="absolute w-[80%] md:w-[50%] lg:w-[450px] h-fit border-4 md:border-[6px] border-[#1a1a1a] bg-white z-[3]  top-[-120%] lg:top-[-100%] left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-15 rounded-[1.5rem] md:rounded-[2.5rem] p-4 md:p-6 flex flex-col gap-3 md:gap-4 shadow-xl">
       <div className="absolute -top-6 -right-4 sm:-top-10 sm:-right-8 md:-top-14 md:-right-14 w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-[#1a1a1a] rounded-full flex items-center justify-center z-20">
         <svg
           className="absolute w-full h-full animate-[spin_15s_linear_infinite]"

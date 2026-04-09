@@ -25,7 +25,7 @@ const Section2 = () => {
       </div>
 
       <div className="pt-28 md:pt-35 pb-20 px-6 md:px-15 flex flex-col gap-6 md:gap-10 relative  h-full justify-center">
-        <h1 className="text-[50px]  lg:text-[100px] leading-[0.85] lg:leading-none text-white font-bold scale-y-[1.2] md:scale-y-[1.5] lg:scale-y-[2.5] tracking-[-0.03em] lg:tracking-[-0.08em] origin-top-left lg:origin-center mb-8 md:mb-16 whitespace-normal lg:whitespace-nowrap">
+        <h1 className="text-[50px] lg:text-[90px] leading-[0.85] lg:leading-none text-white font-bold scale-y-[1.2] md:scale-y-[1.5] lg:scale-y-[2.5] tracking-[-0.03em] lg:tracking-[-0.08em] origin-top-left lg:origin-center mb-8 md:mb-16 whitespace-normal lg:whitespace-nowrap">
           THERE&apos;S A NEW KID IN A TOWN
         </h1>
 
