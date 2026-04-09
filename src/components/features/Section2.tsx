@@ -14,7 +14,7 @@ const Section2 = () => {
         </div>
       </div>
 
-      <div className="absolute top-0 left-0 w-full h-full opacity-30 z-0 lg:z-[1] lg:opacity-100 flex items-center justify-center overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-full opacity-30 z-0 lg:z-[1] lg:opacity-100 flex items-center justify-center overflow-hidden pointer-events-none">
         <Image
           src="/assets/char1.avif"
           alt="char1"
@@ -34,7 +34,7 @@ const Section2 = () => {
           TO FACILITATE & CREATE NEW DIGITAL TRIBES.
         </p>
 
-        <Button className="w-fit mt-4 px-8 md:px-10 h-12 md:h-14 lg:h-15 text-white text-base md:text-lg lg:text-xl font-semibold rounded-full bg-transparent border-2 border-white hover:bg-white hover:text-[#f8672d] transition-colors pointer-events-auto">
+        <Button className="w-fit mt-4 px-8 md:px-10 h-12 md:h-14 lg:h-15 text-white text-base md:text-lg lg:text-xl font-semibold rounded-full bg-transparent border-2 border-white hover:bg-white hover:text-black transition-colors">
           SEE OUR COLLECTION
         </Button>
       </div>

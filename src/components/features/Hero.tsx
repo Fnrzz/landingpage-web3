@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section className="w-full flex flex-col gap-16 lg:gap-15 px-6 md:px-12 lg:px-15 py-10 relative  min-h-screen justify-center overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full opacity-40 z-[-1] lg:z-[1] lg:opacity-100 flex items-center justify-center">
+      <div className="absolute top-0 left-0 w-full h-full opacity-40 z-[-1] lg:z-[1] lg:opacity-100 flex items-center justify-center pointer-events-none">
         <Image
           src="/assets/char3.avif"
           alt="char3"
@@ -25,12 +25,11 @@ const Hero = () => {
             SOME MORE FREE THAN OTHERS. REALITY HAS EVOLVED BEYOND THE PHYSICAL.
             TO FACILITATE & CREATE NEW DIGITAL TRIBES.
           </p>
-          <Button className="mt-8 px-10 h-14 lg:h-15 text-black text-lg lg:text-xl font-semibold rounded-full bg-[#f8672d]">
+          <Button className="mt-8 px-10 h-14 lg:h-15 text-black text-lg lg:text-xl font-semibold rounded-full bg-[#f8672d] hover:bg-white hover:text-black transition-colors">
             VIEW OPENSEA
           </Button>
         </div>
       </div>
-
       <div className="flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-0 relative mt-10 lg:mt-0 w-full">
         <div className="w-full md:w-[80%] lg:w-[40%] flex flex-col gap-6 text-center lg:text-left">
           <Image
